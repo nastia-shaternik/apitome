@@ -142,7 +142,6 @@ body.single-page .docs-section > section.readme article {
 /*max-height: 550px;*/
 /*}*/
 
-
 nav ul {
   text-align: center;
 }
@@ -171,3 +170,8 @@ nav#bar a.nav-link {
   display:inline-block;
   margin-right: 20px;
 }
+
+.navbar-fixed-top {
+  top: 32px;
+}
+
