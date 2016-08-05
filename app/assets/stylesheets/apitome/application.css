@@ -138,6 +138,37 @@ body.single-page .docs-section > section.readme article {
 }
 
 /*.sidebar {*/
-    /*overflow: auto;*/
-    /*max-height: 550px;*/
+/*overflow: auto;*/
+/*max-height: 550px;*/
 /*}*/
+
+.wiztr {
+  nav ul {
+    text-align: center;
+  }
+
+  nav ul li {
+    display: inline-block;
+  }
+
+
+  nav#bar {
+    width: 100%;
+    height: 32px;
+    background: #2e2e2e;
+    top: 20;
+    z-index: 1;
+  }
+
+  nav#bar a.nav-link {
+    color: rgb(225, 225, 225);
+    text-decoration: none;
+    text-align: center;
+    line-height: 32px;
+    font-size: 13px;
+    float: left;
+    display:inline-block;
+    margin-right: 20px;
+  }
+}
+
