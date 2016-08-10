@@ -7,7 +7,7 @@
   <%= stylesheet_link_tag    Apitome.configuration.css_override || 'apitome/application', media: 'all' %>
   <%= javascript_include_tag Apitome.configuration.js_override || 'apitome/application' %>
 
-  <link href="apitome/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <%= favicon_link_tag 'apitome/favicon.ico' %>
 </head>
 
 <%= render 'wiztr' %>
